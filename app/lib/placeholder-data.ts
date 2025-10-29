@@ -12,7 +12,7 @@ const users = [
 const customers = [
   {
     id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
-    name: 'Evil Rabbit',
+    name: 'Rabbit',
     email: 'evil@rabbit.com',
     image_url: '/customers/evil-rabbit.png',
   },
@@ -87,7 +87,7 @@ const invoices = [
   },
   {
     customer_id: customers[0].id,
-    amount: 666,
+    amount: 6500,
     status: 'pending',
     date: '2023-06-27',
   },
